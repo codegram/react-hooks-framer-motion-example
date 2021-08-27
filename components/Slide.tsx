@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
-import { useAnimateOnEnterView } from "./useAnimateOnEnterView";
+import { useAnimateOnEnterView } from "../hooks/useAnimateOnEnterView";
 
 export const Slide: React.FC = (props) => {
   let { ref, controls } = useAnimateOnEnterView();
